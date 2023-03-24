@@ -4,7 +4,7 @@
   "description": "## Referências    - Ajudar a melhorar o projeto  - [Melhorando o README do Projeto](https://www.youtube.com/watch?v=yMRSDdifGW8) - [Como ver a árvore de commits?](https://github.com/omariosouto/crud-20230320/network) - [Dicas para ver o Git no mundo real](https://www.youtube.com/playlist?list=PLh2Y_pKOa4Uf-cUQOVNGlz_GVHx8QYoE6)",
   "main": "CRUD.js",
   "scripts": {
-    "dev":"",
+    "dev": "nodemon ./crud.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Lidianacosta/CRUD/issues"
   },
-  "homepage": "https://github.com/Lidianacosta/CRUD#readme"
+  "homepage": "https://github.com/Lidianacosta/CRUD#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
