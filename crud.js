@@ -1,1 +1,1 @@
-console.log(`Criando o Crud`);
+console.log('Criando o Crud');
